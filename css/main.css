@@ -151,3 +151,40 @@ header ul li a:hover{
     background-color: grey;
 }
 
+#character_nav{
+    text-align: center;
+    background-color: grey;
+    position: relative;
+    left: 20px;
+    top: 2px;
+    
+}
+.characters li a { text-decoration: none; }
+
+.red_bumper {
+    width: 100%;
+    height: 10px;
+    background-color: grey;background-image: url('../images/images.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-blend-mode: multiply;
+
+    transition: height 1.0s ease;
+
+    position: absolute;
+}
+.characters li:hover .red_bumper {
+    height: 100px;
+    
+}
+
+#character_nav h5{
+    padding:  12px 40px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
