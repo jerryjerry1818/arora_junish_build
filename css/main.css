@@ -153,7 +153,7 @@ header ul li a:hover{
 
 #character_nav{
     text-align: center;
-    background-color: grey;
+    background-color: red;
     position: relative;
     left: 20px;
     top: 2px;
@@ -164,7 +164,7 @@ header ul li a:hover{
 .red_bumper {
     width: 100%;
     height: 10px;
-    background-color: grey;background-image: url('../images/images.jpeg');
+    background-color: red;background-image: url('../images/images.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -183,6 +183,16 @@ header ul li a:hover{
     padding:  12px 40px;
     color: white;
     font-size: 14px;
+}
+
+.NAV ul li a:hover{
+    border-bottom: 4px solid red;
+    padding-bottom: 6px;
+
+}
+
+a{
+    transition: all .5s ease !important;
 }
 
 /* lightbox rules here */
