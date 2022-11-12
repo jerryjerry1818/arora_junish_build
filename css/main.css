@@ -124,7 +124,7 @@ header ul li a:hover{
 }
 
 .CONTENT .TEXT_AREA h1 .FIRST{
-    color: white !important;
+    color: black!important;
     text-transform: none;
     font-size: 11px;
     margin-bottom: 400px;
@@ -138,7 +138,7 @@ header ul li a:hover{
     display: inline-block;
     padding: 15px 25px;
     font-size: 34px;
-    color: white;
+    color: black;
     border-radius: 5px;
     font-weight: bold;
     margin-top: 60px;
